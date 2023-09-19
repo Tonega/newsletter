@@ -81,6 +81,18 @@ a.button{
 a.button:hover{
     background:linear-gradient(145deg,rgb(218,125,218),orangered);
 }
+.error-content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .error{
+    color: red;
+    margin-right: 5px;
+  }
+  .error-input {
+    color: red;
+    border: 2px solid red;
+  }
 
 /* Media Query */
 @media(min-width:430px){
